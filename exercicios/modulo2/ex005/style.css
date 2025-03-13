@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+div {
+    color: yellow;
+    background-color: green;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+}
+
+div:hover {
+    background-color: aqua;
+}
