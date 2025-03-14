@@ -2,6 +2,16 @@
 
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Parisienne&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Parisienne', cursive;
+    --fonte3: 'Cinzel', serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,14 +20,14 @@
 html, body {
     min-height: 100vh;
     background-color: white;
+    font-family: var(--fonte1);
 }
 
 header {
     background-color: black;
     color: white;
+    font-family: var(--fonte3);
     text-align: center;
-    margin-bottom: 20px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.400);
 }
 
 header > h1 {
@@ -39,33 +49,60 @@ header a, footer a {
 
 header a:hover, footer a:hover {
     text-decoration: underline;
-    color: rgb(150, 0, 0);
+    color: rgb(170, 0, 0);
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 2em
+}
+
+section p{
+    padding-bottom: 2em;
 }
 
 .fundo {
-    background-color: white;
+    background: linear-gradient(to right, rgb(255, 212, 212), black);
     color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(155, 0, 0);
 }
 
 .imagem {
     background-color: rgb(40, 40, 40);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.400);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem > p {
+    color: rgb(255, 44, 44);
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.313);
+    background-color: rgba(0, 0, 0, 0.515);
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 0px black;
 }
+
+#img01 {
+    background-image: url('../imagens/rose-320868_1920.jpg');
+    background-position: left center;
+}
+
+#img02 {
+    background-image: url('../imagens/book-6799314_1920.jpg');
+    background-position: center;
+}
+
 footer {
     background-color: black;
     color: white;
+    font-family: var(--fonte3);
     font-variant: small-caps;
     text-align: center;
     padding: 10px;
