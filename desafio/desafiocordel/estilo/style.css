@@ -1,0 +1,72 @@
+/*CSS Document*/
+
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.400);
+}
+
+header > h1 {
+    font-size: 3.5em;
+    padding: 50px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 50px;
+    font-variant: small-caps;
+}
+
+header a, footer a {
+    color: grey;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+    color: rgb(150, 0, 0);
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.fundo {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.313);
+}
+footer {
+    background-color: black;
+    color: white;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 10px;
+}
