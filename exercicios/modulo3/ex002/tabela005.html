@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+            border: 5px solid black;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        tr.mulheres {
+            color: rgb(255, 109, 228);
+        }
+
+        tr.homens {
+            color: rgb(0, 19, 194);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr class="mulheres">
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr class="homens">
+            <td>João da Silva</td>
+            <td>Masculino</td>
+            <td>30</td>
+            <td>Programador</td>
+        </tr>
+        <tr class="mulheres">
+            <td >Maria de Souza</td>
+            <td>Feminino</td>
+            <td>22</td>
+            <td>Nutricionista</td>
+        </tr>
+        <tr class="homens">
+            <td>Carlos Eduardo</td>
+            <td>Masculino</td>
+            <td>35</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr class="mulheres">
+            <td>Rebeca Santos</td>
+            <td>Feminino</td>
+            <td>28</td>
+            <td>Advogada</td>
+        </tr>
+        <tr class="mulheres">
+            <td>Leticia Ribeiro</td>
+            <td>Feminino</td>
+            <td>26</td>
+            <td>Arquiteta</td>
+        </tr>
+        <tr class="homens">
+            <td>Paulo Henrique</td>
+            <td>Masculino</td>
+            <td>40</td>
+            <td>Contador</td>
+        </tr>
+    </table>
+</body>
+</html>
