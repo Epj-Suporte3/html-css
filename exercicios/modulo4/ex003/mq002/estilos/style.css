@@ -1,3 +1,24 @@
 @charset "UTF-8";
 
 /* Estilo para todas as telas */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 128, 255);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+  text-shadow: 3px 3px 4px black;
+  padding: 10px;
+}
